@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5703CDB1A3CBA220093C6C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5703CDA1A3CBA220093C6C7 /* AppDelegate.swift */; };
+		A5703CDF1A3CBA220093C6C7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5703CDE1A3CBA220093C6C7 /* GameScene.swift */; };
+		A5703CE11A3CBA220093C6C7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5703CE01A3CBA220093C6C7 /* GameViewController.swift */; };
+		A5703CE41A3CBA220093C6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5703CE21A3CBA220093C6C7 /* Main.storyboard */; };
+		A5703CE61A3CBA220093C6C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5703CE51A3CBA220093C6C7 /* Images.xcassets */; };
+		A5703CE91A3CBA220093C6C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5703CE71A3CBA220093C6C7 /* LaunchScreen.xib */; };
+		A5703CF51A3CBA220093C6C7 /* CandyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5703CF41A3CBA220093C6C7 /* CandyCloneTests.swift */; };
+		A5703CFF1A3D2C9C0093C6C7 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5703CFE1A3D2C9C0093C6C7 /* Candy.swift */; };
+		A5703D011A3D4D150093C6C7 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A5703D001A3D4D140093C6C7 /* Sprites.atlas */; };
+		A5703D031A3D62BA0093C6C7 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5703D021A3D62BA0093C6C7 /* Level.swift */; };
+		A5CB76001A3EB7DD00A20E9B /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB75FF1A3EB7DD00A20E9B /* Swap.swift */; };
+		A5D674451A455BDA00343DD0 /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5D674431A455BDA00343DD0 /* Chomp.wav */; };
+		A5D674461A455BDA00343DD0 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5D674441A455BDA00343DD0 /* Error.wav */; };
+		A5D6744A1A47FC1600343DD0 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5D674491A47FC1600343DD0 /* Ka-Ching.wav */; };
+		A5D6744E1A48CCF600343DD0 /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5D6744C1A48CCF600343DD0 /* Drip.wav */; };
+		A5D6744F1A48CCF600343DD0 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5D6744D1A48CCF600343DD0 /* Scrape.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5703CEF1A3CBA220093C6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5703CCD1A3CBA220093C6C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5703CD41A3CBA220093C6C7;
+			remoteInfo = CandyClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5703CD51A3CBA220093C6C7 /* CandyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5703CD91A3CBA220093C6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5703CDA1A3CBA220093C6C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5703CDE1A3CBA220093C6C7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A5703CE01A3CBA220093C6C7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A5703CE31A3CBA220093C6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5703CE51A3CBA220093C6C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5703CE81A3CBA220093C6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5703CEE1A3CBA220093C6C7 /* CandyCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5703CF31A3CBA220093C6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5703CF41A3CBA220093C6C7 /* CandyCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyCloneTests.swift; sourceTree = "<group>"; };
+		A5703CFE1A3D2C9C0093C6C7 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		A5703D001A3D4D140093C6C7 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		A5703D021A3D62BA0093C6C7 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		A5CB75FF1A3EB7DD00A20E9B /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		A5D674431A455BDA00343DD0 /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
+		A5D674441A455BDA00343DD0 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
+		A5D674491A47FC1600343DD0 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
+		A5D6744C1A48CCF600343DD0 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drip.wav; sourceTree = "<group>"; };
+		A5D6744D1A48CCF600343DD0 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5703CD21A3CBA220093C6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5703CEB1A3CBA220093C6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5703CCC1A3CBA220093C6C7 = {
+			isa = PBXGroup;
+			children = (
+				A5703CD71A3CBA220093C6C7 /* CandyClone */,
+				A5703CF11A3CBA220093C6C7 /* CandyCloneTests */,
+				A5703CD61A3CBA220093C6C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5703CD61A3CBA220093C6C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5703CD51A3CBA220093C6C7 /* CandyClone.app */,
+				A5703CEE1A3CBA220093C6C7 /* CandyCloneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5703CD71A3CBA220093C6C7 /* CandyClone */ = {
+			isa = PBXGroup;
+			children = (
+				A5703D041A3D70200093C6C7 /* models */,
+				A5703D051A3D70360093C6C7 /* views */,
+				A5703D061A3D703F0093C6C7 /* controllers */,
+				A5703CD81A3CBA220093C6C7 /* Supporting Files */,
+			);
+			path = CandyClone;
+			sourceTree = "<group>";
+		};
+		A5703CD81A3CBA220093C6C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5703CE51A3CBA220093C6C7 /* Images.xcassets */,
+				A5703D001A3D4D140093C6C7 /* Sprites.atlas */,
+				A5703CDA1A3CBA220093C6C7 /* AppDelegate.swift */,
+				A5703CE71A3CBA220093C6C7 /* LaunchScreen.xib */,
+				A5703CE21A3CBA220093C6C7 /* Main.storyboard */,
+				A5703CD91A3CBA220093C6C7 /* Info.plist */,
+				A5D6744B1A48CCE100343DD0 /* Sounds */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5703CF11A3CBA220093C6C7 /* CandyCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5703CF41A3CBA220093C6C7 /* CandyCloneTests.swift */,
+				A5703CF21A3CBA220093C6C7 /* Supporting Files */,
+			);
+			path = CandyCloneTests;
+			sourceTree = "<group>";
+		};
+		A5703CF21A3CBA220093C6C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5703CF31A3CBA220093C6C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5703D041A3D70200093C6C7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A5703D021A3D62BA0093C6C7 /* Level.swift */,
+				A5703CFE1A3D2C9C0093C6C7 /* Candy.swift */,
+				A5CB75FF1A3EB7DD00A20E9B /* Swap.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		A5703D051A3D70360093C6C7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A5703CDE1A3CBA220093C6C7 /* GameScene.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		A5703D061A3D703F0093C6C7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5703CE01A3CBA220093C6C7 /* GameViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		A5D6744B1A48CCE100343DD0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A5D674431A455BDA00343DD0 /* Chomp.wav */,
+				A5D674441A455BDA00343DD0 /* Error.wav */,
+				A5D674491A47FC1600343DD0 /* Ka-Ching.wav */,
+				A5D6744C1A48CCF600343DD0 /* Drip.wav */,
+				A5D6744D1A48CCF600343DD0 /* Scrape.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5703CD41A3CBA220093C6C7 /* CandyClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5703CF81A3CBA220093C6C7 /* Build configuration list for PBXNativeTarget "CandyClone" */;
+			buildPhases = (
+				A5703CD11A3CBA220093C6C7 /* Sources */,
+				A5703CD21A3CBA220093C6C7 /* Frameworks */,
+				A5703CD31A3CBA220093C6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CandyClone;
+			productName = CandyClone;
+			productReference = A5703CD51A3CBA220093C6C7 /* CandyClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5703CED1A3CBA220093C6C7 /* CandyCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5703CFB1A3CBA220093C6C7 /* Build configuration list for PBXNativeTarget "CandyCloneTests" */;
+			buildPhases = (
+				A5703CEA1A3CBA220093C6C7 /* Sources */,
+				A5703CEB1A3CBA220093C6C7 /* Frameworks */,
+				A5703CEC1A3CBA220093C6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5703CF01A3CBA220093C6C7 /* PBXTargetDependency */,
+			);
+			name = CandyCloneTests;
+			productName = CandyCloneTests;
+			productReference = A5703CEE1A3CBA220093C6C7 /* CandyCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5703CCD1A3CBA220093C6C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Edward Oakenfold";
+				TargetAttributes = {
+					A5703CD41A3CBA220093C6C7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A5703CED1A3CBA220093C6C7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A5703CD41A3CBA220093C6C7;
+					};
+				};
+			};
+			buildConfigurationList = A5703CD01A3CBA220093C6C7 /* Build configuration list for PBXProject "CandyClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5703CCC1A3CBA220093C6C7;
+			productRefGroup = A5703CD61A3CBA220093C6C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5703CD41A3CBA220093C6C7 /* CandyClone */,
+				A5703CED1A3CBA220093C6C7 /* CandyCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5703CD31A3CBA220093C6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5703CE91A3CBA220093C6C7 /* LaunchScreen.xib in Resources */,
+				A5703CE61A3CBA220093C6C7 /* Images.xcassets in Resources */,
+				A5D6744A1A47FC1600343DD0 /* Ka-Ching.wav in Resources */,
+				A5D6744E1A48CCF600343DD0 /* Drip.wav in Resources */,
+				A5703D011A3D4D150093C6C7 /* Sprites.atlas in Resources */,
+				A5D6744F1A48CCF600343DD0 /* Scrape.wav in Resources */,
+				A5D674461A455BDA00343DD0 /* Error.wav in Resources */,
+				A5703CE41A3CBA220093C6C7 /* Main.storyboard in Resources */,
+				A5D674451A455BDA00343DD0 /* Chomp.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5703CEC1A3CBA220093C6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5703CD11A3CBA220093C6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5703CDF1A3CBA220093C6C7 /* GameScene.swift in Sources */,
+				A5703CFF1A3D2C9C0093C6C7 /* Candy.swift in Sources */,
+				A5CB76001A3EB7DD00A20E9B /* Swap.swift in Sources */,
+				A5703CE11A3CBA220093C6C7 /* GameViewController.swift in Sources */,
+				A5703D031A3D62BA0093C6C7 /* Level.swift in Sources */,
+				A5703CDB1A3CBA220093C6C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5703CEA1A3CBA220093C6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5703CF51A3CBA220093C6C7 /* CandyCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5703CF01A3CBA220093C6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5703CD41A3CBA220093C6C7 /* CandyClone */;
+			targetProxy = A5703CEF1A3CBA220093C6C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5703CE21A3CBA220093C6C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5703CE31A3CBA220093C6C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5703CE71A3CBA220093C6C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5703CE81A3CBA220093C6C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5703CF61A3CBA220093C6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5703CF71A3CBA220093C6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5703CF91A3CBA220093C6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CandyClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5703CFA1A3CBA220093C6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CandyClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5703CFC1A3CBA220093C6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandyCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandyClone.app/CandyClone";
+			};
+			name = Debug;
+		};
+		A5703CFD1A3CBA220093C6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CandyCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandyClone.app/CandyClone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5703CD01A3CBA220093C6C7 /* Build configuration list for PBXProject "CandyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5703CF61A3CBA220093C6C7 /* Debug */,
+				A5703CF71A3CBA220093C6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5703CF81A3CBA220093C6C7 /* Build configuration list for PBXNativeTarget "CandyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5703CF91A3CBA220093C6C7 /* Debug */,
+				A5703CFA1A3CBA220093C6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5703CFB1A3CBA220093C6C7 /* Build configuration list for PBXNativeTarget "CandyCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5703CFC1A3CBA220093C6C7 /* Debug */,
+				A5703CFD1A3CBA220093C6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5703CCD1A3CBA220093C6C7 /* Project object */;
+}
