@@ -69,7 +69,7 @@ class Level {
             candies[row][col] = nextCandy
             candies[nextRow][nextCol] = candy
             
-            if hasChainAt(nextRow, col: nextCol) {
+            if hasChainAt(nextRow, col: nextCol) || hasChainAt(row, col: col) {
                 possibleSwaps[Swap(fromCandy: nextCandy, toCandy: candy)] = true
             }
             
